@@ -1,0 +1,63 @@
+name: KURONIME_APP
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^2.2.0 
+  font_awesome_flutter: ^10.4.0
+  provider: ^6.1.2
+  image_picker: ^0.8.7+4
+
+  # Versi terbaru Lottie
+  # Tambahkan dependensi lainnya jika ada
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/promo.jpg
+    - assets/premium.png
+    - assets/anim.jpeg
+    - assets/BUY.jpg
+    - assets/dadan.jpeg
+    - assets/imi.jpeg
+    - assets/anim1.jpeg
+    - assets/anim2.jpeg
+    - assets/anim3.jpeg
+    - assets/atas1.jpg
+    - assets/atas2.jpg
+    - assets/atas3.jpeg
+    - assets/episode.jpeg
+    - assets/episode1.jpeg
+    - assets/episode2.jpeg
+    - assets/episode3.jpeg
+    - assets/episode4.jpeg
+    - assets/episode5.jpeg
+    - assets/animation.json  # Pastikan file ini benar-benar ada di folder assets
+    - assets/icon_goggle.png  # Pastikan file ini benar-benar ada di folder assets
+    - assets/fb.png  # Pastikan file ini benar-benar ada di folder assets
+    - assets/baru1.jpg  # Pastikan file ini benar-benar ada di folder assets
+    - assets/baru2.jpg  # Pastikan file ini benar-benar ada di folder assets
+    - assets/baru3.jpg  # Pastikan file ini benar-benar ada di folder assets
+    - assets/Kuro.png  # Pastikan file ini benar-benar ada di folder assets
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Medium.ttf
